@@ -128,7 +128,7 @@ namespace Task01
                             Console.WriteLine(people[i]);
                         }
                         catch (ArgumentException e)
-                        {
+                        {   
                             Console.WriteLine(e.Message);
                             if (people[i] == santa)
                                 break;
